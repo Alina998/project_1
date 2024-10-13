@@ -62,7 +62,7 @@ def generate_json_response(data):
 
 
 def main():
-    # Веб-страницы
+    # Веб-страниц
     settings = load_user_settings('C:/Users/pasta/Desktop/project_1_bank/user_settings.json')
     currency_list = settings.get("user_currencies")
     stocks_list = settings.get("user_stocks")
